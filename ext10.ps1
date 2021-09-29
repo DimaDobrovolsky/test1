@@ -3,7 +3,7 @@ $timestamp = Get-Date -Format o
 $opScriptName = $MyInvocation.MyCommand.Name
 Write-Output "[$timestamp] Started $opScriptName"
 
-$match_status = "No changes made"
+###$match_status = "No changes made"
 
 try
 	{
